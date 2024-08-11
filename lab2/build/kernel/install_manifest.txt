@@ -1,0 +1,4 @@
+/mnt/c/Users/91794/Desktop/OS-Course-Lab/Lab2/build/kernel.img
+/mnt/c/Users/91794/Desktop/OS-Course-Lab/Lab2/build/kernel8.img
+/mnt/c/Users/91794/Desktop/OS-Course-Lab/Lab2/build/emulate.sh
+/mnt/c/Users/91794/Desktop/OS-Course-Lab/Lab2/build/simulate.sh

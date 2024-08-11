@@ -1,0 +1,6 @@
+/mnt/c/Users/91794/Desktop/OS-Course-Lab/Lab2/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/91794/Desktop/OS-Course-Lab/Lab2/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/91794/Desktop/OS-Course-Lab/Lab2/build/CMakeFiles/clean-all.dir
+/mnt/c/Users/91794/Desktop/OS-Course-Lab/Lab2/build/CMakeFiles/update-submodules.dir
+/mnt/c/Users/91794/Desktop/OS-Course-Lab/Lab2/build/CMakeFiles/kernel.dir
+/mnt/c/Users/91794/Desktop/OS-Course-Lab/Lab2/build/CMakeFiles/kernel-clean-incbin.dir

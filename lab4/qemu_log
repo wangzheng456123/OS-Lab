@@ -1,0 +1,610 @@
+boot: init_c
+[BOOT] Install kernel page table
+[BOOT] Enable el1 MMU
+[BOOT] Jump to kernel main
+[INFO] [ChCore] lock init finished
+[2J[INFO] [ChCore] uart init finished
+[INFO] [ChCore] per-CPU info init finished
+[INFO] [ChCore] vc_mem: 0x3c000000, size: 0x4000000
+[INFO] [ChCore] physmem_map: [0x3c7000, 0x3c000000)
+[INFO] [ChCore] mm init finished
+[TEST] Init buddy: OK
+[TEST] Allocate & free order 0: OK
+[TEST] Allocate & free each order: OK
+[TEST] Allocate & free all orders: OK
+[TEST] Allocate & free all memory: OK
+[TEST] Buddy tests finished
+[TEST] kmalloc: OK
+[TEST] Map & unmap one page: OK
+[TEST] Map & unmap multiple pages: OK
+[TEST] Map & unmap huge range: OK
+[TEST] Page table tests finished
+[TEST] Physical Timer was successfully initialized!
+: OK
+[INFO] [ChCore] interrupt init finished
+[INFO] [ChCore] pmu init finished
+[INFO] Scheduler metadata is successfully initialized!
+[INFO] [ChCore] sched init finished
+[INFO] CPU 0 is active
+[[TEST] PhysicaINFl Timer was successfuO] CPlly iU n1 itiisa activlized!e
+
+: OK
+[TEST] Physical Timer was successfully initialized!
+: OK
+[INFO] CPU 2 is active
+[INFO] CPU 3 is active
+[INFO] All 4 CPUs are [TEST] Physical Timer was successfully initialized!
+: OK
+active
+[INFO] [ChCore] boot multicore finished
+[INFO] enqueue thread ffffff0001200c30 
+[INFO] Successfully enqueue root thread
+[INFO] [ChCore] create initial thread done
+[TEST] test_schedule_dequeue: OK
+[INFO] enqueue thread ffffff0001200c30 
+Enter Procmgr Root thread (userspace)[INFO] enqueue thread ffffff0001200c30 
+
+[WARN] SYS_rt_sigprocmask is not implemented.
+[INFO] enqueue thread ffffff0001200c30 
+[INFO] enqueue thread ffffff0001201030 
+[INFO] enqueue thread ffffff0001200c30 
+[INFO] enqueue thread ffffff0001201430 
+[INFO] enqueue thread ffffff0001200c30 
+[INFO] enqueue thread ffffff0001201430 
+[INFO] enqueue thread ffffff0001200c30 
+[procmgr] register server value = 0
+[INFO] enqueue thread ffffff0001201c30 
+[INFO] enqueue thread ffffff0001200c30 
+[INFO] enqueue thread ffffff0001201c30 
+[INFO] enqueue thread ffffff0001200c30 
+[INFO] enqueue thread ffffff0001201c30 
+Hello from thread 1
+[INFO] enqueue thread ffffff0001200c30 
+[INFO] enqueue thread ffffff0001201c30 
+Hello from thread 1
+[INFO] enqueue thread ffffff0001200c30 
+Hello from thread 2[INFO] enqueue thread ffffff0001201c30 
+
+[INFO] enqueue thread ffffff0001200c30 
+[INFO] enqueue thread ffffff0001201c30 
+[INFO] enqueue thread ffffff0001200c30 
+Hello from thread 2
+[INFO] enqueue thread ffffff0001201c30 
+[INFO] enqueue thread ffffff0001200c30 
+Hello from thread 2
+[INFO] enqueue thread ffffff0001201c30 
+[INFO] enqueue thread ffffff0001200c30 
+Cooperative Schedluing Test Done!
+Hello from thread 1
+[INFO] enqueue thread ffffff0001200c30 
+[INFO] enqueue thread ffffff0001200c30 
+Thread 1 creates a spinning thread![INFO] enqueue thread ffffff0001200c30 
+
+[INFO] enqueue thread ffffff0001202030 
+[INFO] enqueue thread ffffff0001200c30 
+Hello, I am thread 3. I'm spinning.[INFO] enqueue thread ffffff0001202030 
+
+[INFO] enqueue thread ffffff0001200c30 
+[INFO] enqueue thread ffffff0001202030 
+Thread 1 successfully regains the control!
+Preemptive Schedluing Test Done!
+User Init: booting fs server (FSMGR and real FS) [INFO] enqueue thread ffffff0001200c30 
+[INFO] enqueue thread ffffff0001202030 
+
+[INFO] enqueue thread ffffff0001200c30 
+[INFO] enqueue thread ffffff0001202030 
+[procmgr] Launching tmpfs...
+[INFO] enqueue thread ffffff0001202630 
+[INFO] enqueue thread ffffff0001200c30 
+[INFO] enqueue thread ffffff0001202030 
+[WARN] SYS_rt_sigprocmask is not implemented.
+[INFO] enqueue thread ffffff0001202630 
+[procmgr] Launching fsm...
+[INFO] enqueue thread ffffff0001202c30 
+User Init: booting network server[INFO] enqueue thread ffffff0001200c30 
+[INFO] enqueue thread ffffff0001202030 
+[INFO] enqueue thread ffffff0001203030 
+[INFO] enqueue thread ffffff0001202630 
+[INFO] enqueue thread ffffff0001202c30 
+
+[INFO] enqueue thread ffffff0001200c30 
+[INFO] enqueue thread ffffff0001202030 
+[INFO] enqueue thread ffffff0001203430 
+[INFO] enqueue thread ffffff0001202630 
+[INFO] enqueue thread ffffff0001202c30 
+[INFO] enqueue thread ffffff0001200c30 
+[INFO] enqueue thread ffffff0001202030 
+[INFO] enqueue thread ffffff0001203430 
+[INFO] enqueue thread ffffff0001202630 
+[fsm] Mounting fs from local binary: /tmpfs.srv[INFO] enqueue thread ffffff0001202c30 
+[INFO] enqueue thread ffffff0001200c30 
+[INFO] enqueue thread ffffff0001202030 
+[INFO] enqueue thread ffffff0001202630 
+...
+[INFO] enqueue thread ffffff0001202c30 
+[INFO] enqueue thread ffffff0001200c30 
+[INFO] enqueue thread ffffff0001202030 
+[INFO] enqueue thread ffffff0001202630 
+[INFO] enqueue thread ffffff0001202c30 
+[INFO] enqueue thread ffffff0001200c30 
+[INFO] enqueue thread ffffff0001202030 
+[INFO] enqueue thread ffffff0001202630 
+[INFO] enqueue thread ffffff0001202c30 
+[INFO] enqueue thread ffffff0001200c30 
+[INFO] enqueue thread ffffff0001202030 
+[INFO] enqueue thread ffffff0001202630 
+[INFO] enqueue thread ffffff0001202c30 
+[INFO] enqueue thread ffffff0001200c30 
+[INFO] enqueue thread ffffff0001202030 
+[tmpfs] register server value = 0[INFO] enqueue thread ffffff0001202630 
+[fsm] TMPFS is up, with cap = 11
+[INFO] enqueue thread ffffff0001202c30 
+[INFO] enqueue thread ffffff0001200c30 
+[INFO] enqueue thread ffffff0001202030 
+
+[WARN] SYS_rt_sigprocmask is not implemented.
+[INFO] enqueue thread ffffff0001202c30 
+[INFO] enqueue thread ffffff0001200c30 
+[INFO] enqueue thread ffffff0001202030 
+[fsm] [FSM] register server value = 0
+[INFO] enqueue thread ffffff0001200c30 
+[INFO] enqueue thread ffffff0001202030 
+[INFO] enqueue thread ffffff0001204c30 
+[INFO] enqueue thread ffffff0001202030 
+[INFO] enqueue thread ffffff0001200c30 
+[INFO] enqueue thread ffffff0001202030 
+[procmgr] Launching lwip...
+[INFO] enqueue thread ffffff0001205230 
+[INFO] enqueue thread ffffff0001204c30 
+[INFO] enqueue thread ffffff0001202030 
+[INFO] enqueue thread ffffff0001205230 
+[procmgr] Launching chcore-shell...
+[INFO] enqueue thread ffffff0001206030 
+[procmgr] Launching test_ipc[INFO] enqueue thread ffffff0001200c30 
+[INFO] enqueue thread ffffff0001202030 
+load library name:/lwip.srv
+[INFO] enqueue thread ffffff0001203430 
+[INFO] enqueue thread ffffff0001206030 
+...
+[INFO] enqueue thread ffffff0001206630 
+[INFO] enqueue thread ffffff0001202030 
+[INFO] enqueue thread ffffff0001205230 
+[INFO] enqueue thread ffffff0001203430 
+load library name:chcore_shell.bin[INFO] enqueue thread ffffff0001206030 
+load library name:test_ipc.bin[INFO] enqueue thread ffffff0001206630 
+[INFO] enqueue thread ffffff0001202030 
+[INFO] enqueue thread ffffff0001205230 
+
+[INFO] enqueue thread ffffff0001203430 
+[INFO] enqueue thread ffffff0001206630 
+[INFO] enqueue thread ffffff0001202030 
+map library base:0x750d81e72000
+[INFO] enqueue thread ffffff0001206030 
+[INFO] enqueue thread ffffff0001203430 
+
+[INFO] enqueue thread ffffff0001202030 
+[INFO] enqueue thread ffffff0001205230 
+[INFO] enqueue thread ffffff0001206630 
+[INFO] enqueue thread ffffff0001206030 
+[INFO] enqueue thread ffffff0001203430 
+[INFO] enqueue thread ffffff0001202030 
+load library complete
+map library base:0x7badfc652000
+[INFO] enqueue thread ffffff0001205230 
+[INFO] enqueue thread ffffff0001203430 
+[INFO] enqueue thread ffffff0001202030 
+[INFO] enqueue thread ffffff0001206630 
+[INFO] enqueue thread ffffff0001206030 
+[INFO] enqueue thread ffffff0001205230 
+[INFO] enqueue thread ffffff0001203430 
+[INFO] enqueue thread ffffff0001202030 
+map library base:0x7fb64ba92000
+load library complete
+[INFO] enqueue thread ffffff0001205230 
+[INFO] enqueue thread ffffff0001206630 
+[INFO] enqueue thread ffffff0001206030 
+[INFO] enqueue thread ffffff0001202030 
+[INFO] enqueue thread ffffff0001203430 
+load library complete
+[INFO] enqueue thread ffffff0001206630 
+[INFO] enqueue thread ffffff0001206030 
+[INFO] enqueue thread ffffff0001202030 
+[INFO] enqueue thread ffffff0001205230 
+[INFO] enqueue thread ffffff0001206630 
+[INFO] enqueue thread ffffff0001206030 
+[procmgr] Launching test_ipc_server.bin TOKEN...
+[INFO] enqueue thread ffffff0001208830 
+[INFO] enqueue [INFO] thread enqueue thread fffffffff0001207afff0001230 
+02030 
+[INFO] enqueue thread ffffff0001203430 
+[INFO] enqueue thread ff[INFO] effff0001nqueue 206030 thread f
+fffff0001208830 
+[0m[TEST] Start testing concurrent IPC.
+[0m[WARN] SYS_rt_sigprocmask is not implemented.
+[INFO] enqueu[INFO] ee thread nffffff00012queue thread 06630 
+ffffff0001202030 
+[INFO] enqueue thread ffffff0001205230 [INFO]
+[INFO]  enqueue threaenqueue thread ffffff0d 001203430 
+ffffff0001208830 
+[WARN] SYS_rt_sigprocmask is not implemented.
+[INFO] enqueue thre[WARN]ad  SfffffYS_mf0001206030 
+embarrier is not implmeneted.
+[INFO] enqueue thread ffffff0001206630 
+[INFO] enqueue thread ffffff0001202030 
+[INFO] enqueue thread ffffff0001205230 
+[INFO] enqueue thread ffffff0001208830 
+[INFO] enqueue thread ffffff0001203430 
+[WARN] SYS_membarrier is not implmeneted.
+[INFO] enqueue thread ffffff0001206630 
+[INFO] enqueue thread ffffff0001206030 
+[INFO] enqueue thread ffffff0001208830 
+[INFO] enqueue thread ffffff0001208c30 
+[INFO] enqueue thread ffffff0001202030 
+[INFO] enqueue thread[lwip] ffff Hff0001206630 
+ost at 192.168.0.3 mask 255.255.255.0 gateway 192.168.0.[IN1FO] enqueue thread ffffff0001208830 
+[INFO] enqueue thread ffffff0001205230 
+[INFO] enqueue thread ffffff0001208c30 
+[INFO] enqueue thread ffffff0001206630 
+[INFO] enqueue thread ffffff0001206030 
+[INFO] enqueue thread ffffff0001208830 
+[INFO] enqueue thread fffff[INFO] ef00012098nqueue thread f30 
+fffff0001[INF202O] enqueue th030 
+read ffffff0001206630 
+
+[INFO] enqueue thread ffffff0l001205oad library na230 
+me:test_ipc_server.bin[INFO] enqueue thr[INFO] enqead ffffff0001208c30 
+ueue thread ffffff0001208830 
+[INFO] enqueue thread ffffff00[INFO] enqueue thr01209830 
+ead ffffff0001206030 
+[INFO] enqueue thread ffffff0001206630 
+[INFO] enqueue thread ffffff00
+01209830 
+[INFO] enqueue thread ffffff0001202030 
+[INFO] enqueue thread ffffff0001209830 [I[INFO] enquNFO] enqueue threaeue thread ffffff0001209430 
+d
+ ffffff0001203430 
+[INFO] enqueue thread ffffff0001206630 
+[INFO] enqueue thread ffffff0001209830 
+[INFO] enqueue thread ffffff0001209830 
+[INFO] enque[INFO] enqueue thread ue thread ffffff0001209830 
+ffffff000[INFO] 1208830 
+enqueue thread ffffff0001209830 
+[INFO] enqueue thread ffffff0001209830 
+[INFO] enqueue thread ffffff0001206630 
+[INFO] enqueue thread ffffff0001209830 
+[INFO] enqueue thread ffffff0001209830 
+[INFO] enqueue thread fff[Ifff0001208c30 
+[INFO] enqueue thread NFO] enqueue threffffff0001209430 
+ad ffffff0001209830 
+[INFO] enqueue thread ffffff000120983[INFO] enqueue thread 0 
+ffffff0001209c30 
+[INFO] enqueue thread ffffff000120a030 
+[IN[INFOFO] enqueue thread ff[INFO] enqueue thread] enqueue thread ffffff0001206630 
+ fffffffff0001209830f0001[INFO] enqueue thre206030 
+ 
+ad f[INFO] enqueue thread ffffff0001202030 
+[Ifffff0001208830 
+NFO] enqueue thread ffffff0[INFO] enqueue th[INFO] enqueue t001209830 
+hread read fffffffff0001205230 
+fff000120a030 
+[IN[INFO] enquFO] enqueue thread ffffff0001203430 
+[INFO] enqueue[INFO] enqueue thread  threead ffffff0001206630ue thread ffffff0001209830 
+ 
+ffffff0001208c30 
+[INFO] enqueue thread ffffff[INFO] enqueue thread 0001209830 
+[INFO] enqueue thread ffffff0001209830 
+ffffff0001209c30 
+[INFO] enqueue thread ffff[INFO] enqueue thread ffffff00012ff0001208830 
+[I06030 [INFO] enqueue thread fffff
+f0001209830 
+NFO] en[INFO] enqueue thread ffffff0001209830 
+[INFO] enqueuequeue t thread ffffff0001209830 
+[INFO] e[INFO] enqueue thread ffffff0001202030 
+nqueue thread ffffff0hread 001209830 
+[INFO] enqueue thread ffffff0001209830 
+ffffff000120a030 
+[INFO] enqueue thread ffffff0001206630 
+[INFO] enqueue thread ffffff000120[INFO] enqueue thread ffffff0001209830 
+[INFO] enqueue thread ffffff0001209830 
+[INFO] 5230 
+enqueue thread ffffff0001209830 
+[INFO] enqueue thread [INFO] enqueue thread ffffff0001209430 
+ff[INFO] enqueue thread ffffff0001203430 
+[INFO] enqueue thread ffffff0001208c30 
+ffff0001209830 
+[INFO] enqueue thread f[INFO] enqfffff000120ueue thread ffffff0001209830 
+[INFO] enqueue threa030ad ffffff0001209830 
+ 
+[INFO] enqueue thread ffffff0001209830 
+[INFO] enqueue thread ffffff0001206630 
+[INFO] enqueue thread ffffff00[INFO] enqueue thread ffffff00001206030 
+1209830 
+[INFO] enqueue thread ffffff0001209830 
+[INFO] enqueue thread ffffff0001209830 
+[INFO] enqueue thread fffff[INFO] enque[INFO] enqueue threaue thread ffffff0001209830 
+f0001209430 
+d ffffff[INFO] enqueue thread ffffff0001209830 
+[INFO0001202030 
+[IN] enq[INFO] enqueuueue FO] enqueue thre thread ffffff000120a030 
+ethread ffaffff0001209830 
+d ffffff0001205230 
+[INFO] enqueue thread ffffff0001209830 
+[INFO] enqueue thread ffffff000[INFO] enqueue thread ffffff0001209830 
+1[INFO] enqueue t206630 
+hread ffffff000[INFO] enqueue thread ffffff0001203430 
+1209830 
+[INFO] enqueue thread ffffff0001208c30 
+[[ININFO] enqueuFO] enqueue thread ffffff0001209830 
+[INFO] enqueue thread ffffff0001209830 
+e thread ffffff000[INFO] enqueue thread ffffff0001206030 
+[INFO] enqueue thread ffffff0001209830 
+1208830 
+[INFO] enqueue thread ffffff0001209830 
+[INFO] [INFO] enqueue thread [INFO] enqueue ffffff000120a030 
+enquthread effffff0001202030 
+[INFO] enqueue thread ffffff000120a430 
+ue thread ffffff000120[INFO] enqueue thread ffffff9830 
+[INFO] enqueue 0001206630 
+thread ffffff0001[INFO[INFO] enqueue t] enqueue209830 
+hread ffffff0001 thread 208830 
+ffffff0001205230[INFO[ 
+INFO] enqueue thread ffffff000120a030 
+] enqueue thread[INFO] enqueue thread ffffff000120a430 
+[INFO] enqueue thread ffffff0001203430 
+ ffffff0001209830 
+[INFO] enqueue thread ffffff00[INFO] enqueue[INFO] enqueue thread ffffff00012 thre01206630 
+[IN09830 
+FO[Iad NFO] en] enqueue thread queue thrffffff000120a430 
+ead ffffff000120983[INFO] enqueue thread ffffff0001208830 
+[INFO] enqueue thread ffff[INFO] enqueue thread ffffff0fff000100120 20a430 
+
+0a030 
+[INFO] enqueue thread ffffff000[IN[INFO] enqueue th120fffffa43read fffffFO] enqueue f000001208c30 
+01209830 
+thread ffffff0001206630 
+0 
+[INFO] enqueue thread f[INFO] enqu[IffffNFO] enqueue theue thref0001208830 [INFadread 
+fff ffff0001206030 
+Offfff00[INFO] enqu] enqueue thread 0eue ffffff0[INFO] 1enqueue thread fthreafffff0001200120d ffffff000120a030 02030 
+20a439830 0 
+
+[IN
+[INFO] eFO] e[nqueue thread INFO] enqueue threadnqueue thread ffffff00[INFO] effffff000120a430120 0 
+ff[6630 
+nffff000queue th[Iread fffNFO] enqueue 12thread ffffINFO] enq09c30 ueue fff0001ff0001208830 
+
+[INFO] thread ffffff000120[INFO] enqueue thread ffaffff0001203430 
+209830 
+430 
+[I[NFO] enqueueeINFO] enque[ue threnqueue threaad ffffff000120a430 
+d INFOffffff000120a03] enqueu[ three thread ffffff00012098INF30O] enque 
+ad ff[INFO] enqueue thre0 
+ue threaffff0001ad ffffff0d208c30  ffffff000
+120a4300 
+[INFO] enque01209[INFO] 83[INFO] eue thread ffffffenqueunqe threuad fff0 000120afff0004
+30 
+eue thread fffff[INFO] enqueu1206030 
+[INFO] enqf00012[INFO] eueue 06thread63 fffff0 f0001209830 
+ thread ffffff000120a
+[INFO] enqueue thread ffenqueue thread ffffff0001202030 ffff4
+0001209[I830 [INFO] eNFnqueueO] thread ffffff000120 enqueue threa
+9c30 
+30 
+d ffffff00012088[INFO] enqueu[30 
+[INFO] enqueue thINFreO] enqueue thread ffffff000120a430 
+e thread ffffff[I000120ad ffffff09830NFO] en 
+001205230 
+queue thread ffffff0[00120a4INFO] en[INFO] 3queue thread ffffff0001enqueue 0 
+[INthFO] enquread fe[INFO] enqueue thue threaread fffffd209830 
+ ffffff000120a030 
+000120343[ffffff000120a430 
+INFO] enqu0eue thread ffffff[I[INFO0] enqueue thread ffffff0001200012 
+098a430 
+NFO] enq30ueue thread ffffff000120 
+[INFO] [INFO] enqueue thenqueread f6630[INFO] enqueue threfffff ue thre0001208aad ffff
+ff0001209830 d ffffff000120a43c30 
+
+0 
+[INFO][INFO] enqueue thre enqueue thread [INFO] ad fffffffff[INFO] enqueue thf0001en206030 
+qff00012read ffffff000ueue thr0a430 
+e120983ad0  
+[I[INFO]NFO] enq enqu[INFO]ffffff000120883 ueue0 
+enqueueue the read ffffff00012020 thread ffffff00012030 
+9830 
+thread ffffff0001[INFO] e[Inqueue thread NFO] enque20a430 
+[INFO]ffffff00ue thread ffff enqueu[INFO01] ff00012enqueue thread e thread ffffff000120a430 
+20a09830 
+[INFOffffff00]030 
+ enqueu0[INFO] enqueue thre1209c3ad fffff[INFO] enqueue thread fff0001e0 
+[INFO] enqueu206630 
+e thread  tffff0001209830 
+ffffff0001[hread 205230 
+INFO] enqueueffffff[INFO] enque thread ffffffue000120000120983a430 0 thread ffffff000120a030 
+[INFO] enqueue thread ffffff000120883 
+0 
+[INFO] enqueue thread ffffff00
+[INFO]01209[INFO] e enqueue830 
+[INFnqueue thr[INFO] enqueue threead ffO] enqueue tad fffff ffff0001206hread fffffff0001203430 
+000120a430 
+63[0 
+INthreFO] enqueue thread ffad ffffff000120[INFO] 98enqueue threa[INFO] enquffff000120a430 
+d ffffff0001208c30 
+e[INFO] ue thread ffffff00012enqueue thread f0a030 30 
+fffff000120a430 
+[I[INFO] [IenqueuNFe thread ffNffff000
+1206030O] enqueue threaFO] enqueue thread  
+f[INFO]ff enqueued ffff threadfff0001209830[INFO] enque ff00ue thread fffffffff00012088 fff0030 
+0120a430 
+
+012020[[INFO] INFO] enenqueue th30 
+read ffffff000120a430 
+[INFO] enqueue thr[INFO] eenqueue thread fffffad ffqueue threa[ffff000f000120a430 
+dINF fO] enque[INFO] enqueue thread ffffff00ue thread ffffff000120a12430 
+01209c3006630 
+[INFO] efnqueueff thff00012 09830 
+
+[INFO] e[Inqueue threread ffffff000120a030 
+[ad ffffff00012INFO] enNFO] enqueue thread ffffff0001[INFO] enqueue0a th205230 
+430 
+quread ffffff0001[[INFO]eue threadINFO] enqueue thread enqueue th20883 ffffff0001209830 0 
+read ffffff000120 fffff[a430 f0001203430 INFO]
+ enque
+ue thre[INFO] enqueue th
+[INFOre] enqueue thread ffffff000120a430 
+[INFO] enqueue tad fffffad ffffff0001206630 
+hread fffff[INFO] enf0001209[INFO]f enqueuqe threa8ueue thread000120ad fff ffffff0fff00001208c30 
+4030 
+[1INFO]320a030 
+ enqueue thread[INF f[INFO] enqueuO]fffff0001209830  e tenqu0 
+
+h[INFO] enqueue thread ff[INffff0001209830 
+eue thread[INFO] reFO] eenqueue adnqueue thread ff ffffff0001208830 
+ffthreadff ff000120a430 
+[I[ffff00 01fffffINFO] enNFO] enqueueqf000120a830 
+209830 ueue t[INFO] e thread ffffff0nqueue 
+threadhread00120a430 [INFO
+] enqu[eue thread ffffff00  ffffffffffff0001200001206630 
+6INFO] e01209030 
+n830 
+[INFO]qu enqueue threeue tad fhfffff0read ffffff000[INFO] enqueue thread fffff120a430 
+001209830 
+f000120a030 
+[INFO] en[queue INFOthread ffffff0001202030 
+] enqueue thread ffffff000120a430 [INFO] enqueue thread ff
+[ffff0001208830 
+[INFO] enINFO] enqueue[INF[INFO] equeueO thread thread ffffff0nqueu]e thread ffff001209c30 
+ ff000120ac30 
+enqueue thread ffffff000120a430 
+[INFO]  fenqueue thread ffffff[fffff0[INFO] e0nqueue thread ffffff0001205230 
+01209830 0001206630 
+INFO] enqueue thread ffffff000120a430 
+
+[INFO] enqueue thread ffff[INFO] enqueue thread ffffff[INFO] enqueue thread ffff000120a430 
+ff0001203430 
+ff0[INFO] enqueue thread ffffff000120a430 001
+20a030 
+[INFO] enqueue thread ff[INFO] [INFO] enqueue thread effff000120a430 
+nquffffff00012[INFO] enqu08c30 eue thread ffffff00eue thread ffffff000120883
+[INFO] enqueue th0 
+read ffffff0[INFO] enqueue thread ffffff000120ac30 
+00120a430 
+[INFO] enqueue th0read f[INFO1202030 
+] enqueue thread ffffff000120a430 
+fffff0001[INFO] e[INFO] enqueue thread fnqueu206630 
+e thread ffffff000120fffff000120a430 
+9[INFO] enqueue thr[INFO] enqueue tead ffhread830 ff ffffff
+00012ff000120a830 
+0a03[INFO] enqu0 
+eue thread ffffff000120a430 
+[INFO] enqueue thread ffffff000120203[INFO] enqueue thread 0 
+[INF[INFO] enqueue thread ffOffffffffff000120a] enq00012066430 
+[INFO] enqueue thueue threa30 
+[INFO] enqud read eue thread ffffff000120a430 
+[INFO] enqueue thread ffffffffffff0001f0001209830 fffff000120a020a430 
+30 
+
+[INFO] enqueue thread[INFO] enqueue thread ffffff[INFO] enqueue thread 000120a430 
+[ ffffff0INFO] enquffffff0001202030 
+001206630 
+e[INFO]ue thread ffffff00012 enqu0a430 eue thr[INFO] enque
+ead ffffff000120ue thread ffffff000120a030 
+[INFO] enqu9830 
+eue thre[INFO] enqueue thread ffffff0001205230 
+ad ffffff0[INFO][INFO] enqu[IN enqueue thread Feue thread fffff00120a430 O] enqueue thread f0001206630 
+ffffff00012ffffff000120
+6030 
+02030 [INFO] enqueue thread ffffff00012
+[INFO] enqueue thread ffffff00012034300a030 
+ 
+[INFO] enqueue thread ffffff0001208c30 
+[INFO] enqueue [INFO] enqthread ffffff000120[INFOaueue thread [INfff430 
+fFO] e[ff00012nqueue thread ffffff0001206630 
+]09830INFO] enq enqu[INFO] enqueue thread ffffff 
+000120aeue thread ffffueue th[INFO] enquread ffffff00eue thread ffffffff000120ac30 
+430 
+0001202030 [INFO] 
+enqueue thread ffffff000120a430 
+012[INFO] enqueue thread ffffff0000120a430 
+a030 [INFO] enqueue thread 
+[INFO] enqu[ffffff0001205230 
+INeue thread ffffff0001206630 FO] enqueue threa
+[INFd ffffO] enqueue thread ffffff000120a4[INFO] 30 
+ffenqueue thr[INFO] e[INFO] enqueue tead ffffff0001203430 
+nqueue thread ffffff000120a030 
+0001209830 
+hread f[INFO] enqueue thre[INFO] enqufffff000ad ffffff000eue thr[INFO] eead 12nqueue th06630 
+read ffffff0001208c30 
+[1ffffff000120INFO] enqueue thread ffffff000120a030 
+2030 
+20a430 
+[INFO] enqueue thread ffffff00012[INFO[INFO] enqueue thread ffffff000a430 
+] enqueue thread ffffff000120ac30 
+[INFO] enqueue thread ffffff0001209830 
+0120b030 
+[INFO] enqueue thread ffffff0001206630 
+[INFO] enqueue thread ffffff000120a030 
+[INFO] enqueue thread ffffff000120a430 
+[INFO] enqueue thread ffffff0001205230 
+[INFO] enqueue thread [INFO] enqueue thread ffffff0001202030 
+ffffff000120a430 
+[INFO] enqueue thread ffffff000120a430 
+[INFO] enqueue thread ffffff0001203430 
+[INFO] enqueue thread f[INFOfff] ff00012enque0a430 
+ue th[INFO] enqueue thread ffffff000[INFO] enqueue thread 120a430 
+read ffffff000[INFO] enqueue thread fff[INFO] enqfff0001209830 ffffff0001208c3
+0 
+ueue thread ffffff000120a430 
+[INFO] enqueue 120b030thread f 
+fffff000120[INFO] enqu[INFO]eue thra430 
+[ enqueue thread ffffffINFO] enqueue tead ffff0001206630 
+hread fff000120fffff000120a430 
+ac30 
+[I[INFO] enqueue thread ffffNFO] enque[INFO] enqueue threafd ffffff00u0120203e thread ffffff000120a430[INFO] enqueue thread f000120a030 
+0 
+ 
+ffffff0001205230 
+[INFO] enqueue thread ffffff000120b030 
+[INFO] enqueue thread ffffff000120a430 
+[INFO] enqueue thread ffffff0001203430 
+[INFO] enqueue thread ffffff0[INFO] enqueue thread ffff00120a430 
+ff00[INFO] enqueue thread ffffff0001208c30 
+[012066INFO] enqueue[INFO] enque thread ffffff000120ac30 
+ue [INFO]threa enqueue td ffffff030 00120a430 
+
+[INFO] enqueue thread ffffhread ffffff0001209830 ff000120a4[I3NFO] enqueue thread ffffff0001208830 
+0 
+
+[INFO] enqueue thread ffffff000120a030 
+[INFO] enqueue thread ffffff00012034[INFO] enqueue thread ffffff000120a430 
+[INFO] enqueue thread[30 
+INFO] enqueue thread ffffff000120b030 
+ ffffff000120a430 
+[INFO] enqueue thread ffffff000120a430 
+[INFO] enqueue thread [ffffff0001[INFO20203INF[INFO] enqueue thread ffffff000120b430 
+] enqueue thread O] enqueue threadffffff0001208c0 
+ ffffff000120a430 
+[INFO] enqueue thread ffffff0001206630 
+[INFO] enqueue thread ffffff000120a430 
+[INFO] enqu[INFO] enqueue thread 30 
+feue thread ffffff0001208830 
+fffff0001209830 
+[INFO] enqueue thread ffffff000120a[INFO] enq[INFO[INFO] enqueue 430 ] enqueue thread ffffff0001202030 
+threa
+d ffffff000120ac30 
+[INFO] enqueue thread ffffuff000120[INFO] 9830 
+enqueue thread ffffeue thread ffffff000120a030 
+ff000120a430 
+[INFO] [INFO] enqueue thread fffffenqueue thre[f0001INFO] enqueue thread ad ffff20b030 
+ffffff0001202030 ff00012
+0[IN[INFO] enqueue[INFO] enqueue thrFO] enquead feue thread thread fa83fffff0001 ffffff000120a430 
+[INFO] enqueufffff000120b4e thr0 
+30 
+20983[INead ffffff000120a4300 F
+ 
+O] enqueue thread ffffff00[01203430 
+[I[INFO] enquINFO] enqueue thread eNFO] enqueue thread ffffff0001208cfffu30 
+[I[INFO] enqueueNFO] enqueue th thread fffffff000120a430 
+ff000e thread read fff1206630 
+[fff000120ac30 
+IQEMU: Terminated
+
